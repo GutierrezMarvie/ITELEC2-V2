@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url(src/img/bacg.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.container {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+  background: rgba(255, 255, 255, .1);
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10 px rgba(0, 0, 0, .1);
+}
+
+.container h1 {
+    font-size: 36px;
+    text-align: center;
+    color: white;
+}
+
+.container .input-box {
+    width: 100%;
+    height: 50%;
+    margin: 30px 0;
+}
+
+.input-box input {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-radius: 40px;
+    font-size: 16px;
+    color: white;
+    padding: 20px 45px 20px 20px;
+}
+
+.input-box input ::placeholder {
+    color: white;
+}
+
+.container .btn {
+    width: 100%;
+    height: 45px;
+    background: white;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
+    font-weight: 600;
+}
+
+
+/* Style for "Don't have an account?" text and link */
+.container span {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    color: white; /* Set color to white for the text */
+    font-size: 14px;
+}
+
+.container span a {
+    color: #00aaff;; /* Set the color to light blue for the "Register" link */
+    text-decoration: none; /* Remove underline from link */
+    font-weight: 500;
+}
+
+.container span a:hover {
+    text-decoration: underline; /* Add underline on hover for better accessibility */
+}
